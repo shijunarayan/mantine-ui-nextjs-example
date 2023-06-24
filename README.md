@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MantineUI with Next.js Integration Example
 
-## Getting Started
+This repository provides an example implementation of integrating MantineUI with Next.js, demonstrating how to set up custom theming, utilize Mantine components, and leverage Next.js app routing.
 
-First, run the development server:
+## Project Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository: `git clone https://github.com/your-username/mantine-ui-nextjs-example.git`
+2. Install dependencies: `npm install`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Start the development server: `npm run dev`
+2. Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Sample Output](/public/MantineColorThemeProvider.jpg?raw=true "Sample Output")
+
+## Customizing the Color Scheme
+
+To customize the color scheme of the application, you can modify the color values defined in the `externals/provider.tsx` file. Update the color arrays for `brand`, `secondary`, `accent`, `complementary`, and `neutral` to suit your desired color scheme.
+
+## Available Scripts
+
+In the project directory, you can run the following scripts:
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the production-ready application.
+- `npm run start`: Starts the production server.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about MantineUI and Next.js, check out the official documentation:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [MantineUI Documentation](https://mantine.dev/)
+- [Next.js Documentation](https://nextjs.org/docs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the [MIT License](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to explore, customize, and use this example as a starting point for your own projects. If you have any questions or feedback, please create an issue or reach out to the project maintainers.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding!
