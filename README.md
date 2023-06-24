@@ -12,7 +12,7 @@ This repository provides an example implementation of integrating MantineUI with
 1. Start the development server: `npm run dev`
 2. Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-![Sample Output](/public/MantineColorThemeProvider.jpg?raw=true "Sample Output")
+![Sample Output](/public/MantineColorThemeProvider.png?raw=true "Sample Output")
 
 ## Customizing the Color Scheme
 
